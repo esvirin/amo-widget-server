@@ -1,0 +1,13 @@
+{
+    "widget":{
+        "name":"Welbex.Node",
+        "short_description":"Welbex. Node",
+        "description":"Welbex. Node"
+    },
+    "settings":{
+        "start":"Введите start"
+    },
+    "advanced" : {
+        "title": "Welbex. Node"
+    }
+}

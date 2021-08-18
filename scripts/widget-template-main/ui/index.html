@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+		<link rel="stylesheet" href="index.css" />
+	</head>
+	<body>
+		<div class="root">
+			<div class="payment">
+				<div class="payment__tariffs">
+					<div class="payment__tariffs__item">
+						<div class="payment__tariffs__item__title">Оплата 10 месяцев</div>
+					</div>
+					<div class="payment__tariffs__item">
+						<div class="payment__tariffs__item__title">Оплата 10 месяцев</div>
+					</div>
+					<div class="payment__tariffs__item">
+						<div class="payment__tariffs__item__title">Оплата 10 месяцев</div>
+					</div>
+				</div>
+				<div class="payment__info">
+					<div class="payment__info__date">До 08.04.2021</div>
+					<div class="payment__info__price">14 500 руб.</div>
+				</div>
+				<div class="payment__buy-btn">Оплатить онлайн</div>
+			</div>
+		</div>
+
+		<script>
+			const tariff = document.querySelector('.payment__tariffs__item')
+			tariff.addEventListener('click', e =>
+				console.log(e.target, e.target.closest('.payment__tariffs__item'))
+			)
+		</script>
+	</body>
+</html>

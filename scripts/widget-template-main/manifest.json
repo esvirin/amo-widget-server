@@ -1,0 +1,36 @@
+{
+	"widget": {
+		"name": "widget.name",
+		"description": "widget.description",
+		"short_description": "widget.short_description",
+		"version": "1.0.1",
+		"interface_version": 2,
+		"init_once": true,
+		"locale": ["ru"],
+		"installation": true,
+		"support": {
+			"link": "https://www.amocrm.com",
+			"email": "support@amocrm.com"
+		}
+	},
+	"locations": ["lcard-1", "settings"],
+	"tour": {
+		"is_tour": true,
+		"tour_images": {
+			"ru": ["/images/logo_main.png", "/images/logo_main.png", "/images/logo_main.png"]
+		},
+		"tour_description": "widget.tour_description"
+	},
+	"settings": {
+		"phoneNumber": {
+			"name": "settings.phoneNumber",
+			"type": "text",
+			"required": true
+		},
+		"name": {
+			"name": "settings.name",
+			"type": "text",
+			"required": false
+		}
+	}
+}

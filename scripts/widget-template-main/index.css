@@ -1,0 +1,94 @@
+.widget-content {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+}
+
+.licence-status {
+	box-sizing: border-box;
+	text-align: center;
+	padding: 5px 0 5px 0;
+	width: 200px;
+	color: white;
+}
+
+.licence-info {
+	box-sizing: border-box;
+	width: 200px;
+	padding: 3px;
+	display: flex;
+	flex-direction: column;
+	background-color: gainsboro;
+}
+
+.payment {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.payment__tariffs {
+	display: flex;
+	width: 100%;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.payment__tariffs__item {
+	width: 120px;
+	height: 60px;
+	border: 1px rgba(0, 0, 0, 0.2) solid;
+	margin: 5px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	flex-shrink: 0;
+	transition: 0.3s;
+	cursor: pointer;
+}
+
+.payment__tariffs__item--current {
+	border: 1px green solid !important;
+}
+
+.payment__tariffs__item:hover {
+	border: 1px green solid;
+}
+
+.payment__tariffs__item__title {
+	text-align: center;
+}
+.payment__tariffs__item__description {
+	text-align: center;
+	font-size: 12px;
+}
+
+.payment__info {
+	display: flex;
+	align-items: center;
+}
+
+.payment__info__date {
+	margin-right: 10px;
+}
+
+.payment__info__price {
+	margin-left: 10px;
+	font-size: 25px;
+	font-weight: bold;
+}
+
+.payment__buy-btn {
+	color: white;
+	background-color: #4c8bf7;
+	padding: 10px;
+	margin: 5px 0 5px 0;
+	cursor: pointer;
+	border-radius: 3px;
+	transition: 0.3s;
+	text-decoration: none;
+}
+
+.payment__buy-btn:hover {
+	background-color: #3c7dec;
+}
